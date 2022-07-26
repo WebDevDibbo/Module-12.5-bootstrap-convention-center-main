@@ -21,7 +21,6 @@
     min-height: 60vh;
 }
 .toast-body{
-    width: 250px;
     padding: 7px;
     border: 1px solid #0D6EFD;
     border-left: 5px solid #0D6EFD;
@@ -33,4 +32,74 @@
 }
 .toast-body .btn-close{
     margin-left:10px;
+}
+/* package section */
+.package > h2{
+    margin:2em 0 ;
+}
+.package
+.card{
+  border: none;
+   padding: 40px 30px;
+   transition:0.5s;
+   cursor: pointer;
+}
+.card p{
+   color: #848199;
+}
+.card ul{
+    display: inline-block;  
+}
+.card ul li{
+    list-style: none;
+    margin-bottom: 10px;
+    color: #848199;
+}
+.card ul li i{
+    margin-right: 10px;
+    color: #5243C2;
+}
+.card a{
+    color: #0D6EFD;
+    padding: 12px 0;
+    border-radius:25px;
+    font-weight: 700;
+    transition: 0.3s;
+    
+}
+.card a:hover{
+    color: white;
+    background-color: #5243C2;
+}
+.card:hover{
+    color: white;
+    border-radius: 10px;
+    background-color: #0D6EFD;
+    background-image: url(images/watermark.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.card:hover a{
+    color: #0D6EFD;
+    background-color: white;
+}
+.card:hover p{
+    color: white;
+}
+.card:hover ul li,i{
+    color: white;
+}
+.card:hover ul li i{
+    color: white;
+}
+/* package section ends */
+/* client section starts */
+.clients-card{
+    box-shadow: 1px 8px 20px rgb(160, 160, 160);
+}
+footer{
+    height: 250px;
+    background-color: black;
+    color: white;
 }
