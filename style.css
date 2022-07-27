@@ -17,12 +17,16 @@
     object-fit: cover;
     min-height: 60vh;
 }
+.moment-right button{
+    color:#0D6EFD ;
+    border: 1px solid #0D6EFD;
+}
 .moment-right button:hover{
 background-color: #0D6EFD;
 color: white;
 }
 .moment-right button i{
-  color: #19B2F5;
+  color: #0D6EFD;
 }
 .moment-right button:hover i{
   color: white;
